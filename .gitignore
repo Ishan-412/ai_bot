@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+*.venv/
+env/
+*.env/
+ai_bot_env/ # Your current venv name
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# macOS specific
+.DS_Store
+
+# Environment variables (CRUCIAL: DO NOT COMMIT YOUR API KEY)
+.env
